@@ -22,10 +22,9 @@ public class ZombieCatcher{
 
                 if (overlappingDayAndNightPeriods(zombieIn, zombieOut, arrival, departure)){
                     potentialZombies++;
-                    System.out.println(visitorName + "needs to be quarantined");
-                }else {
-                    System.out.println(visitorName + " does not need to be quarantined.");
-                }  
+                    System.out.println(visitorName + " needs to be quarantined.");
+                }
+            reader.close();
                 
             }
     
