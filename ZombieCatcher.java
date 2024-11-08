@@ -24,7 +24,6 @@ public class ZombieCatcher{
                     potentialZombies++;
                     System.out.println(visitorName + " needs to be quarantined.");
                 }
-            reader.close();
                 
             }
     
